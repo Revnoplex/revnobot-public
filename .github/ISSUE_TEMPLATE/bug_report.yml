@@ -1,0 +1,47 @@
+name: Genertic Bug report
+description: "For bugs that don't cause an **Something Went Wrong** error but have unexpected behaviour or some other error"
+title: "User Reported Bug"
+labels: ["generic bug report"]
+assignees:
+  - Revnoplex
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: input
+    id: command-name
+    attributes:
+      label: Command Name or Other reference
+      description: Please Specify the command name or some other way to reference the part of the bot with this issue
+    validations:
+      required: true
+  - type: textarea
+    id: error-env
+    attributes:
+      label: Describe the environment
+      description: Describe what you or the bot was doing when the unexpected behaviour or error occured.
+    validations:
+      required: true
+  - type: textarea
+    id: expected-behaviour
+    attributes:
+      label: Expected behavior
+      description: A clear and concise description of what you expected to happen.
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: If applicable, add screenshots showing the channel the unexpected behaviour or error occurred in
+      placeholder: Screenshot URLs. Separete by line
+    validations:
+      required: false
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: Add any other context about the problem here.
+    validations:
+      required: false
