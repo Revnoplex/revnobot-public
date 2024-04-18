@@ -1,4 +1,4 @@
-name: Unexpected Error Report2
+name: Unexpected Error Report
 description: Please help the development of Revnobot by reporting "Something Went Wrong!" messages
 title: "User Reported Bug"
 labels: ["bug tagged with error id"]
