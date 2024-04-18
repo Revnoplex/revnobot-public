@@ -1,6 +1,5 @@
 name: Unexpected Error Report
-description: File a bug report.
-about: Please help the development of Revnobot by reporting "Something Went Wrong!" messages
+description: Please help the development of Revnobot by reporting "Something Went Wrong!" messages
 title: "User Reported Bug"
 labels: ["bug tagged with error id"]
 assignees:
