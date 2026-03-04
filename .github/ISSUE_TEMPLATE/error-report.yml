@@ -1,4 +1,4 @@
-name: Unexpected Error Report
+name: Error Report
 description: Please help the development of Revnobot by reporting "Something Went Wrong!" messages
 title: "User Reported Bug"
 labels: ["bug tagged with error id"]
@@ -14,7 +14,6 @@ body:
     attributes:
       label: Error ID
       description: Please Specify the error id that was outputted from the "Something Went Wrong!" message
-      placeholder: VINT-CT-PID-MID-TS
     validations:
       required: true
   - type: textarea
